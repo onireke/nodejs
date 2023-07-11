@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
     res.end();
   }
 
-  if (req.url === "/api/coorses") {
+  if (req.url === "/api/courses") {
     res.write(JSON.stringify([A, B, C, D, E]));
     res.end();
   }
